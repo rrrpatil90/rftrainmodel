@@ -1,6 +1,10 @@
 import unittest
 from RFTrainModel.rftrainmodel.rftrainmodel import input_df, target_df, training
+#import sys
 #from pandas.util.testing import assert_frame_equal
+
+# inputFile = sys.argv[1]
+# targetFile = sys.argv[2]
 
 inputFile = "E:\DMLE Project\Madhu\data\HierarchyInputWithBFMResult_brandFamily.csv"
 targetFile = "E:\DMLE Project\Madhu\data\\target_brandFamily.csv"
